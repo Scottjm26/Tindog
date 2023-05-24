@@ -1,0 +1,80 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    margin: 0 auto;
+    width:550px;
+    text-align: center;
+}
+
+.character-card{
+    text-align: center;
+    
+}
+.avatar{
+    width:534px;
+    height: 751px;
+    border-radius: 12px;
+}
+#liked-image, #pass-image{
+    display:none;
+    margin-top:-720px;
+    margin-left: 40px;
+    width:172px;
+    transform: rotate(-20deg);
+   
+}
+#top-buttons{
+    display:flex;
+    padding:15px;
+    justify-content: space-between;
+}
+.small-button{
+    width:33px;
+}
+#wide-button{
+    width:84px;
+    height:34px;
+}
+.name{
+display:flex;
+margin-top:-90px;
+margin-left:20px;
+color:#F8F8F8;
+font-size:32px;
+font-weight:500;
+
+}
+.bio{
+display:flex;
+margin-top:-35px;
+margin-left:20px;
+margin-bottom:30px;
+color:#B7B7B7;
+font-size:20px;
+font-weight:200
+}
+
+#pass-button{
+    margin-right:20px;
+    border-radius:100px;
+    width:26px;
+    height:26px;
+    padding:23px;
+    box-shadow: 0 0 20px .5px gray;
+}
+#liked-button{
+    margin-right:20px;
+    border-radius:100px;
+    padding:25px;
+    width:26px;
+    box-shadow: 0 0 20px .5px gray;
+    
+}
+#liked-button:hover{
+    background-color:#DBFFF4;
+}
+#pass-button:hover{
+    background-color:#FFE7EF;
+}
